@@ -1,0 +1,114 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family:Segoe UI;
+}
+/* header */
+.oxmain{
+    width: 1510px;
+    min-height: 1300px;
+}
+ .oxheader{
+    width: 100%;
+    height:500px;
+    color: white;
+ 
+    
+}
+.head_title{
+    width: 100%;
+    height: 90px;
+    background:#F8F8F8;
+}
+.oxlogo{
+    width: 9%;
+    height: 90px;
+    background-image: url(../img/images.jfif);
+    background-size:cover;
+    background-position:center;
+    float: left;
+    margin: 0 1% 0 0;
+}
+.oxnavbar{
+    width: 90%;
+    height: 90px;
+    float: left;
+}
+.list li{
+   display: inline-block;
+   padding: 15px 30px;
+   font-weight: bolder;
+   font-size: 22px;
+   font-family: sans-serif;
+   
+}
+.list{
+    text-align: center;
+    margin-left: 450px;
+    display: inline-block;
+    color:#3B3B3B ;
+}
+/* body */
+.oxart{
+    width: 100%;
+    height: 400px;
+    margin: 10px 0;
+    background:linear-gradient(90deg, rgba(127,190,196,1) 0%, rgba(115,184,201,1) 15%, rgba(162,195,209,1) 26%, rgba(55,152,223,1) 54%, rgba(41,29,152,1) 100%);
+    text-align: center;
+    padding-top: 100px;
+    box-sizing: border-box;
+    color: white;
+    
+}
+.oxart h1{
+    
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    text-align: center;
+}
+.oxart p{
+    text-transform: capitalize;
+}
+.oxart button{
+    margin-top: 100px;
+    width: 150px;
+    height: 50px;
+    background:transparent;
+    border: 4px solid white;
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    transform: 0.5s;
+}
+.oxart button:hover{
+    background: #16A4A4;
+    cursor: pointer;
+    border-style: none;
+}
+.oxblock{
+    width: 100%;
+    min-height: 600px;
+    float: left;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.oxblock p{
+    width: 600px;
+    height: 150px;
+    margin-left: 450px;
+}
+.oxsector{
+    width: 30%;
+    height: 400px;
+    margin: 25px;
+    float: left;
+    background: #FFFFFF;
+}
+.oxsector img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 50px;
+}
